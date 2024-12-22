@@ -3,7 +3,7 @@ let canvas=document.querySelector('#canvas')
 canvas.width=window.innerWidth
 canvas.height=window.innerHeight
 
-var io=io.connect('http://localhost:3000/')
+var io=io.connect('https://shareboard-xome.onrender.com/')
 
 let ctx=canvas.getContext("2d")
 
